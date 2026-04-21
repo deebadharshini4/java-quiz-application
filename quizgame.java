@@ -8,8 +8,7 @@ public class QuizGame {
 
         String[] questions = {
                 "1. What is Java?",
-                "2. Which keyword is used for inheritance?",
-                "3. What is size of int in Java?"
+                "2. Which keyword is used for inheritance?","3. What is size of int in Java?"
         };
 
         String[][] options = {

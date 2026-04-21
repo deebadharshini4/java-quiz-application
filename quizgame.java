@@ -29,7 +29,7 @@ public class QuizGame {
 
             System.out.println(questions[i]);
 
-            // for-each loop instead of index-based loop
+           
             for (String option : options[i]) {
                 System.out.println(option);
             }
@@ -41,8 +41,7 @@ public class QuizGame {
                 System.out.println("Correct!");
                 score++;
             } else {
-                System.out.println("Wrong! Correct answer is: " 
-                        + options[i][answers[i] - 1]);
+                System.out.println("Wrong! Correct answer is: ");
             }
 
             System.out.println();
